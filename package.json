@@ -1,0 +1,34 @@
+{
+  "name": "api-consorcio",
+  "version": "1.0.0",
+  "description": "Api para buscar y visualizar farmacias de turno por región y comuna",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernandishe/api-consorcio.git"
+  },
+  "author": "Ariel Fernández Solar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fernandishe/api-consorcio/issues"
+  },
+  "homepage": "https://github.com/fernandishe/api-consorcio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "custom-env": "^1.0.2",
+    "express": "^4.17.1",
+    "express-generator": "^4.16.1",
+    "fast-xml-parser": "^3.15.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0",
+    "pug": "^2.0.4",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.23",
+    "xmldom": "^0.1.27"
+  }
+}
